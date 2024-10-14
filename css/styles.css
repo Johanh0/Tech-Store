@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 0; }
+
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .nav .nav__search form div {
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    padding: 10px 15px;
+    background-color: #f3f5f7;
+    border-radius: 10px; }
+    header .nav .nav__search form div label {
+      cursor: pointer; }
+    header .nav .nav__search form div input#search {
+      flex: 1;
+      border: none;
+      outline: none;
+      background-color: transparent; }
+  header .nav .nav__user-controls {
+    display: flex;
+    gap: 10px; }
