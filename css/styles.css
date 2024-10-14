@@ -10,10 +10,19 @@ html {
   margin: 0 auto;
   padding: 50px 0; }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+
+main {
+  flex: 1; }
+
 header .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 50px; }
   header .nav .nav__search form div {
     display: flex;
     gap: 10px;
@@ -31,3 +40,12 @@ header .nav {
   header .nav .nav__user-controls {
     display: flex;
     gap: 10px; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+  footer p {
+    font-size: 1.3rem; }
+    footer p span {
+      font-weight: bold; }

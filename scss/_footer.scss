@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  p {
+    font-size: 1.3rem;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
