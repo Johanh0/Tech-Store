@@ -7,18 +7,17 @@ function renderProducts(products) {
     cardContainer.innerHTML += `
             <article class="card">
           <div class="card__div-img">
-            <img src="" alt="card image" />
+            <img src="${product.img}" alt="card image" />
           </div>
           <div class="card__div-info">
-            <h2 class="card__p--title">Product</h2>
-            <p class="card__p--brand">Brand</p>
+            <h2 class="card__p--title">${product.title}</h2>
+            <p class="card__p--brand">${product.brand}</p>
 
             <p class="card__p--description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore, vero.
+              ${product.description}
             </p>
-            <p class="card__p--price">$ 100</p>
-            <a href="" class="card__a--link">Buy</a>
+            <p class="card__p--price">$ ${product.price}</p>
+            <a href="${product.link}" class="card__a--link">Buy</a>
           </div>
         </article>
     `;

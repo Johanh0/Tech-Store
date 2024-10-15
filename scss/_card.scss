@@ -3,7 +3,7 @@
   grid-template: repeat(2, 1fr) / repeat(auto-fit, minmax(200px, 1fr));
   gap: 30px 20px;
   width: 100%;
-  height: fit-content;
+  height: auto;
 
   .card {
     display: flex;
@@ -17,10 +17,20 @@
 
     .card__div-img {
       flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
       width: 100%;
-      height: 100%;
+      height: 300px;
       background-color: white;
       border-radius: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
     }
 
     .card__div-info {

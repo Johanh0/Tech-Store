@@ -8,6 +8,7 @@ footer {
 
     span {
       font-weight: bold;
+      color: map-get($colors, primary);
     }
   }
 }
