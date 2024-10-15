@@ -17,7 +17,7 @@ function renderProducts(products) {
               ${product.description}
             </p>
             <p class="card__p--price">$ ${product.price}</p>
-            <a href="${product.link}" class="card__a--link">Buy</a>
+            <a href="${product.link}" class="card__a--link" target="_blank">Buy</a>
           </div>
         </article>
     `;
